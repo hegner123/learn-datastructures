@@ -6,6 +6,9 @@ package main
 // Node represents a single node in the binary search tree
 type Node struct {
 	// TODO: Add fields for value, left child, right child
+    Value int
+    LeftChild *Node
+    RightChild *Node
 }
 
 // ValidateBST checks if a given binary tree satisfies BST property
