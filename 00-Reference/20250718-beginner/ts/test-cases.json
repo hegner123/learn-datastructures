@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Basic Addition",
+    "operation": "add",
+    "input": [5, 3],
+    "expected": 8
+  },
+  {
+    "name": "Basic Subtraction", 
+    "operation": "subtract",
+    "input": [10, 4],
+    "expected": 6
+  },
+  {
+    "name": "Basic Multiplication",
+    "operation": "multiply", 
+    "input": [7, 2],
+    "expected": 14
+  },
+  {
+    "name": "Basic Division",
+    "operation": "divide",
+    "input": [15, 3],
+    "expected": 5
+  },
+  {
+    "name": "Division with Remainder",
+    "operation": "divide",
+    "input": [10, 3],
+    "expected": 3
+  },
+  {
+    "name": "Division by Zero",
+    "operation": "divide",
+    "input": [10, 0],
+    "expected": "error"
+  },
+  {
+    "name": "Negative Numbers",
+    "operation": "add",
+    "input": [-5, 3],
+    "expected": -2
+  },
+  {
+    "name": "Zero Operations",
+    "operation": "multiply",
+    "input": [0, 5],
+    "expected": 0
+  },
+  {
+    "name": "Large Numbers",
+    "operation": "add",
+    "input": [1000, 2000],
+    "expected": 3000
+  },
+  {
+    "name": "Subtraction Result Negative",
+    "operation": "subtract",
+    "input": [3, 5],
+    "expected": -2
+  }
+]

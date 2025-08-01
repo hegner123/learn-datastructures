@@ -1,0 +1,244 @@
+{
+  "practice_counts": {
+    "01-Arrays": {
+      "total": 9,
+      "beginner": 6,
+      "intermediate": 3,
+      "advanced": 0,
+      "senior": 0
+    },
+    "02-linked-lists": {
+      "total": 4,
+      "beginner": 3,
+      "intermediate": 1,
+      "advanced": 0,
+      "senior": 0
+    },
+    "03-Stacks": {
+      "total": 3,
+      "beginner": 2,
+      "intermediate": 1,
+      "advanced": 0,
+      "senior": 0
+    },
+    "04-Queues": {
+      "total": 1,
+      "beginner": 1,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "05-binary-trees": {
+      "total": 1,
+      "beginner": 1,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "06-binary-search-trees": {
+      "total": 1,
+      "beginner": 1,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "07-avl-trees": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "08-red-black-trees": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "09-b-trees": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "10-Tries": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "11-segment-trees": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "12-fenwick-trees": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "13-adjacency-matrix": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "14-adjacency-list": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "15-directed-graphs": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "16-undirected-graphs": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "17-weighted-graphs": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "18-unweighted-graphs": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "19-hash-tables": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "20-hash-sets": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "21-bloom-filters": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "22-Heaps": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "23-disjoint-set-union": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "24-suffix-arrays": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "25-sparse-tables": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "26-skip-lists": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "27-suffix-trees": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "28-kmp-algorithm": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "29-rolling-hash": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "30-lru-cache": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "31-design-patterns": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "32-circular-buffers": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    },
+    "33-bit-manipulation": {
+      "total": 0,
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0,
+      "senior": 0
+    }
+  },
+  "metadata": {
+    "total_problems": 19,
+    "legend": {
+      "B": "Beginner",
+      "I": "Intermediate", 
+      "A": "Advanced",
+      "S": "Senior"
+    }
+  }
+}

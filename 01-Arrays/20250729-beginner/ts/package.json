@@ -1,0 +1,22 @@
+{
+  "name": "array-contains-element",
+  "version": "1.0.0",
+  "description": "Array contains element problem implementation",
+  "main": "solution.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "tsc",
+    "clean": "rm -rf dist node_modules coverage"
+  },
+  "keywords": ["arrays", "linear-search", "data-structures"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.6.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}

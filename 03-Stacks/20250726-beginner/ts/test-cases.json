@@ -1,0 +1,74 @@
+{
+  "testCases": [
+    {
+      "id": 1,
+      "name": "Empty string",
+      "input": "",
+      "expected": true,
+      "description": "Empty string should be considered balanced"
+    },
+    {
+      "id": 2,
+      "name": "Single pair of parentheses",
+      "input": "()",
+      "expected": true,
+      "description": "Simple pair of parentheses should be balanced"
+    },
+    {
+      "id": 3,
+      "name": "Single pair of brackets",
+      "input": "[]",
+      "expected": true,
+      "description": "Simple pair of square brackets should be balanced"
+    },
+    {
+      "id": 4,
+      "name": "Single pair of braces",
+      "input": "{}",
+      "expected": true,
+      "description": "Simple pair of curly braces should be balanced"
+    },
+    {
+      "id": 5,
+      "name": "Nested brackets of same type",
+      "input": "((()))",
+      "expected": true,
+      "description": "Nested parentheses should be balanced"
+    },
+    {
+      "id": 6,
+      "name": "Mixed balanced brackets",
+      "input": "([{}])",
+      "expected": true,
+      "description": "Mixed types of brackets in proper nesting should be balanced"
+    },
+    {
+      "id": 7,
+      "name": "Unmatched opening bracket",
+      "input": "(()",
+      "expected": false,
+      "description": "Missing closing bracket should be unbalanced"
+    },
+    {
+      "id": 8,
+      "name": "Unmatched closing bracket",
+      "input": "())",
+      "expected": false,
+      "description": "Extra closing bracket should be unbalanced"
+    },
+    {
+      "id": 9,
+      "name": "Wrong order of brackets",
+      "input": "([)]",
+      "expected": false,
+      "description": "Incorrectly nested brackets should be unbalanced"
+    },
+    {
+      "id": 10,
+      "name": "Complex nested structure",
+      "input": "{[(){}][(())]}",
+      "expected": true,
+      "description": "Complex but properly nested structure should be balanced"
+    }
+  ]
+}

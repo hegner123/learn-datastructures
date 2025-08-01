@@ -1,0 +1,180 @@
+{
+    "testCases": [
+        {
+            "name": "Empty list",
+            "elements": [],
+            "expectedMiddle": 0,
+            "expectedFound": false,
+            "expectedArray": [],
+            "expectedSize": 0
+        },
+        {
+            "name": "Single element",
+            "elements": [
+                5
+            ],
+            "expectedMiddle": 5,
+            "expectedFound": true,
+            "expectedArray": [
+                5
+            ],
+            "expectedSize": 1
+        },
+        {
+            "name": "Two elements",
+            "elements": [
+                1,
+                2
+            ],
+            "expectedMiddle": 1,
+            "expectedFound": true,
+            "expectedArray": [
+                1,
+                2
+            ],
+            "expectedSize": 2
+        },
+        {
+            "name": "Three elements",
+            "elements": [
+                1,
+                2,
+                3
+            ],
+            "expectedMiddle": 2,
+            "expectedFound": true,
+            "expectedArray": [
+                1,
+                2,
+                3
+            ],
+            "expectedSize": 3
+        },
+        {
+            "name": "Four elements",
+            "elements": [
+                10,
+                20,
+                30,
+                40
+            ],
+            "expectedMiddle": 20,
+            "expectedFound": true,
+            "expectedArray": [
+                10,
+                20,
+                30,
+                40
+            ],
+            "expectedSize": 4
+        },
+        {
+            "name": "Five elements",
+            "elements": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "expectedMiddle": 3,
+            "expectedFound": true,
+            "expectedArray": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "expectedSize": 5
+        },
+        {
+            "name": "Six elements",
+            "elements": [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600
+            ],
+            "expectedMiddle": 300,
+            "expectedFound": true,
+            "expectedArray": [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600
+            ],
+            "expectedSize": 6
+        },
+        {
+            "name": "Seven elements with negatives",
+            "elements": [
+                -3,
+                -2,
+                -1,
+                0,
+                1,
+                2,
+                3
+            ],
+            "expectedMiddle": 0,
+            "expectedFound": true,
+            "expectedArray": [
+                -3,
+                -2,
+                -1,
+                0,
+                1,
+                2,
+                3
+            ],
+            "expectedSize": 7
+        },
+        {
+            "name": "Large numbers",
+            "elements": [
+                1000000,
+                2000000,
+                3000000,
+                4000000,
+                5000000
+            ],
+            "expectedMiddle": 3000000,
+            "expectedFound": true,
+            "expectedArray": [
+                1000000,
+                2000000,
+                3000000,
+                4000000,
+                5000000
+            ],
+            "expectedSize": 5
+        },
+        {
+            "name": "Duplicate elements",
+            "elements": [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+            ],
+            "expectedMiddle": 7,
+            "expectedFound": true,
+            "expectedArray": [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+            ],
+            "expectedSize": 6
+        }
+    ]
+}

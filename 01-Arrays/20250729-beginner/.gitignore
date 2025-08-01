@@ -1,0 +1,14 @@
+*.log
+*.out
+*.exe
+*.test
+vendor/
+.DS_Store
+node_modules/
+dist/
+build/
+coverage/
+.vscode/
+.idea/
+*.swp
+*.swo

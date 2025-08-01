@@ -1,0 +1,133 @@
+{
+  "testCases": [
+    {
+      "name": "NewStack",
+      "description": "Test creating a new empty stack",
+      "operations": [],
+      "expected": {
+        "isEmpty": true,
+        "size": 0
+      }
+    },
+    {
+      "name": "PushSingleElement",
+      "description": "Test pushing a single element",
+      "operations": [
+        {"action": "push", "value": 10}
+      ],
+      "expected": {
+        "isEmpty": false,
+        "size": 1,
+        "peek": 10
+      }
+    },
+    {
+      "name": "PushMultipleElements",
+      "description": "Test pushing multiple elements",
+      "operations": [
+        {"action": "push", "value": 5},
+        {"action": "push", "value": 15},
+        {"action": "push", "value": 25},
+        {"action": "push", "value": 35}
+      ],
+      "expected": {
+        "size": 4,
+        "peek": 35
+      }
+    },
+    {
+      "name": "PopSingleElement",
+      "description": "Test popping a single element",
+      "operations": [
+        {"action": "push", "value": 42},
+        {"action": "pop"}
+      ],
+      "expected": {
+        "popResult": 42,
+        "isEmpty": true,
+        "size": 0
+      }
+    },
+    {
+      "name": "PopMultipleElements",
+      "description": "Test popping multiple elements in LIFO order",
+      "operations": [
+        {"action": "push", "value": 1},
+        {"action": "push", "value": 2},
+        {"action": "push", "value": 3},
+        {"action": "push", "value": 4},
+        {"action": "push", "value": 5}
+      ],
+      "expected": {
+        "popOrder": [5, 4, 3, 2, 1]
+      }
+    },
+    {
+      "name": "PopEmptyStack",
+      "description": "Test popping from empty stack should throw error",
+      "operations": [
+        {"action": "pop"}
+      ],
+      "expected": {
+        "shouldThrow": true
+      }
+    },
+    {
+      "name": "PeekEmptyStack",
+      "description": "Test peeking at empty stack should throw error",
+      "operations": [
+        {"action": "peek"}
+      ],
+      "expected": {
+        "shouldThrow": true
+      }
+    },
+    {
+      "name": "PeekDoesNotModify",
+      "description": "Test that peek does not modify the stack",
+      "operations": [
+        {"action": "push", "value": 100},
+        {"action": "push", "value": 200},
+        {"action": "push", "value": 300}
+      ],
+      "expected": {
+        "peek": 300,
+        "sizeAfterPeek": 3,
+        "peekMultipleTimes": true
+      }
+    },
+    {
+      "name": "Clear",
+      "description": "Test clearing all elements from stack",
+      "operations": [
+        {"action": "push", "value": 7},
+        {"action": "push", "value": 14},
+        {"action": "push", "value": 21},
+        {"action": "push", "value": 28},
+        {"action": "push", "value": 35},
+        {"action": "clear"}
+      ],
+      "expected": {
+        "isEmpty": true,
+        "size": 0,
+        "worksAfterClear": true
+      }
+    },
+    {
+      "name": "LIFOBehavior",
+      "description": "Test LIFO behavior with mixed operations",
+      "operations": [
+        {"action": "push", "value": 1},
+        {"action": "push", "value": 2},
+        {"action": "pop"},
+        {"action": "push", "value": 3},
+        {"action": "push", "value": 4}
+      ],
+      "expected": {
+        "firstPop": 2,
+        "finalPeek": 4,
+        "remainingOrder": [4, 3, 1]
+      }
+    }
+  ]
+}

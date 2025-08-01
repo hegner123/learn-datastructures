@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Insert at beginning",
+    "input": {
+      "operations": ["insert(10)", "insert(20)", "insert(30)"],
+      "method": "toArray"
+    },
+    "expected": [30, 20, 10]
+  },
+  {
+    "name": "Append at end", 
+    "input": {
+      "operations": ["append(1)", "append(2)", "append(3)"],
+      "method": "toArray"
+    },
+    "expected": [1, 2, 3]
+  },
+  {
+    "name": "Mixed insert and append",
+    "input": {
+      "operations": ["insert(10)", "append(20)", "insert(5)", "append(30)"],
+      "method": "toArray"
+    },
+    "expected": [5, 10, 20, 30]
+  },
+  {
+    "name": "Delete existing element",
+    "input": {
+      "setup": ["append(1)", "append(2)", "append(3)", "append(4)"],
+      "operation": "delete(2)",
+      "method": "delete"
+    },
+    "expected": true
+  },
+  {
+    "name": "Delete non-existent element",
+    "input": {
+      "setup": ["append(1)", "append(2)"],
+      "operation": "delete(99)",
+      "method": "delete"
+    },
+    "expected": false
+  },
+  {
+    "name": "Delete from single element list",
+    "input": {
+      "setup": ["append(42)"],
+      "operation": "delete(42)",
+      "method": "delete"
+    },
+    "expected": true
+  },
+  {
+    "name": "Search existing element",
+    "input": {
+      "setup": ["append(5)", "append(10)", "append(15)"],
+      "operation": "search(10)",
+      "method": "search"
+    },
+    "expected": true
+  },
+  {
+    "name": "Search non-existent element",
+    "input": {
+      "setup": ["append(1)", "append(2)"],
+      "operation": "search(99)",
+      "method": "search"
+    },
+    "expected": false
+  },
+  {
+    "name": "Size after operations",
+    "input": {
+      "operations": ["append(1)", "insert(2)", "append(3)"],
+      "method": "size"
+    },
+    "expected": 3
+  },
+  {
+    "name": "Empty list search",
+    "input": {
+      "operations": [],
+      "operation": "search(1)",
+      "method": "search"
+    },
+    "expected": false
+  }
+]

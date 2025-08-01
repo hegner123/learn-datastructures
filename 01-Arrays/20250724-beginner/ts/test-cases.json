@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Empty array",
+    "input": [],
+    "expected": 0
+  },
+  {
+    "name": "Single element",
+    "input": [42],
+    "expected": 42
+  },
+  {
+    "name": "Ascending order",
+    "input": [1, 2, 3, 4, 5],
+    "expected": 1
+  },
+  {
+    "name": "Descending order",
+    "input": [10, 8, 6, 4, 2],
+    "expected": 2
+  },
+  {
+    "name": "All negative",
+    "input": [-5, -2, -10, -1],
+    "expected": -10
+  },
+  {
+    "name": "Mixed numbers",
+    "input": [-5, 10, -3, 8, 2],
+    "expected": -5
+  },
+  {
+    "name": "All same",
+    "input": [7, 7, 7, 7],
+    "expected": 7
+  },
+  {
+    "name": "Single negative",
+    "input": [-100],
+    "expected": -100
+  },
+  {
+    "name": "Min at end",
+    "input": [50, 30, 20, 1],
+    "expected": 1
+  },
+  {
+    "name": "Min in middle",
+    "input": [10, 5, -10, 15, 20],
+    "expected": -10
+  }
+]

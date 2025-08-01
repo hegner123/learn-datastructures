@@ -1,0 +1,21 @@
+# Go files
+*.log
+*.out
+*.exe
+*.test
+vendor/
+
+# TypeScript files
+node_modules/
+dist/
+build/
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+*.swp
+*.swo

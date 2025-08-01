@@ -1,0 +1,21 @@
+# Go
+*.log
+*.out
+*.exe
+*.test
+vendor/
+.DS_Store
+
+# TypeScript
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+coverage/
+
+# General
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,13 @@
+package main
+
+import (
+	"fmt"
+	"testing"
+)
+
+func TestIsBalanced(t *testing.T) {
+	testString := "(()"
+    r:=IsBalanced(testString)
+    fmt.Println(r)
+
+}
