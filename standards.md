@@ -26,8 +26,9 @@ When generating a problem the output should reflect this format:
       └─ test-cases.json
 
 ## Levels
-Problems are categorized into four difficulty levels:
+Problems are categorized into five difficulty levels:
 
+* **Intro** - Direct replication of subject matter, minimal problem solving
 * **Beginner** - Direct replication of subject matter, minimal problem solving
 * **Intermediate** - Subject matter + one additional data structure from previous directories
 * **Advanced** - Subject matter + up to three additional data structures from previous directories  

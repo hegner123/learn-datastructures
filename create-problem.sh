@@ -8,7 +8,7 @@
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <difficulty> <data-structure>"
     echo ""
-    echo "Difficulty levels: beginner, intermediate, advanced, senior"
+    echo "Difficulty levels: intro, beginner, intermediate, advanced, senior"
     echo "Data structures: arrays, linked-lists, stacks, queues, binary-trees, etc."
     echo ""
     echo "Example: $0 intermediate linked-lists"
@@ -20,11 +20,11 @@ DATA_STRUCTURE=$2
 
 # Validate difficulty level
 case $DIFFICULTY in
-    beginner|intermediate|advanced|senior)
+    intro|beginner|intermediate|advanced|senior)
         ;;
     *)
         echo "Error: Invalid difficulty level '$DIFFICULTY'"
-        echo "Valid options: beginner, intermediate, advanced, senior"
+        echo "Valid options: intro, beginner, intermediate, advanced, senior"
         exit 1
         ;;
 esac

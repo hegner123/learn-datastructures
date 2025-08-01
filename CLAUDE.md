@@ -111,12 +111,13 @@ Commands for working with problems:
 
 ## Difficulty Levels
 
-Problems are categorized into four levels:
+Problems are categorized into five levels:
 
-1. **Beginner**: Direct replication of subject matter, minimal problem solving
-2. **Intermediate**: Subject matter + one additional data structure from previous directories
-3. **Advanced**: Subject matter + up to three additional data structures from previous directories  
-4. **Senior**: Can use any/all data structures, requires advanced problem solving
+1. **Intro**: Direct replication of subject matter, minimal problem solving
+2. **Beginner**: Direct replication of subject matter, minimal problem solving
+3. **Intermediate**: Subject matter + one additional data structure from previous directories
+4. **Advanced**: Subject matter + up to three additional data structures from previous directories  
+5. **Senior**: Can use any/all data structures, requires advanced problem solving
 
 ## Learning Sequence
 
@@ -146,12 +147,14 @@ Before finalizing any problem, validate that the difficulty level matches the ac
    - Evaluate algorithmic complexity required
 
 2. **Check Difficulty Alignment**
+   - **Intro**: Uses only the current subject matter, no additional data structures
    - **Beginner**: Uses only the current subject matter, no additional data structures
    - **Intermediate**: Uses current subject + exactly one previous data structure (prefix 1 to current-1)
    - **Advanced**: Uses current subject + up to three previous data structures (prefix 1 to current-1)
    - **Senior**: May use any/all data structures, requires advanced problem solving
 
 3. **Validate Test Cases**
+   - **Intro**: Straightforward cases, no deliberate edge case traps
    - **Beginner**: Straightforward cases, no deliberate edge case traps
    - **Intermediate**: Include cases that test robustness, moderate complexity
    - **Advanced**: Complex edge cases, multiple failure scenarios

@@ -1,11 +1,19 @@
 # Levels
 
+## Intro
+Comments in the solution file should provide step by step instructions in writing the datastructure.
+The problem should be solvable by directly replicating the subject being tested.
+Very little additional problem solving should be needed to reach a solution.
+Test cases should be straight forward and shouldn't deliberately try to trip up the solution.
+Provide 10 different test cases our solution should be tested against.
+
 
 ## Beginner
 The problem should be solvable by directly replicating the subject being tested.
 Very little additional problem solving should be needed to reach a solution.
 Test cases should be straight forward and shouldn't deliberately try to trip up the solution.
 Provide 10 different test cases our solution should be tested against.
+
 
 ## Intermediate
 The problem should be solvable by replicating the subject matter with additional use of a single one of the previous data structures, 

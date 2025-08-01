@@ -36,7 +36,8 @@
       "senior": 0
     },
     "06-binary-search-trees": {
-      "total": 1,
+      "total": 2,
+      "intro": 1,
       "beginner": 1,
       "intermediate": 0,
       "advanced": 0,
@@ -233,7 +234,7 @@
     }
   },
   "metadata": {
-    "total_problems": 19,
+    "total_problems": 20,
     "legend": {
       "B": "Beginner",
       "I": "Intermediate", 

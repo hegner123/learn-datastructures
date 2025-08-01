@@ -59,7 +59,7 @@
 - 03-Stacks: 3 (B:2, I:1, A:0, S:0)
 - 04-Queues: 1 (B:1, I:0, A:0, S:0)
 - 05-binary-trees: 1 (B:1, I:0, A:0, S:0)
-- 06-binary-search-trees: 1 (B:1, I:0, A:0, S:0)
+- 06-binary-search-trees: 2 (Intro:1, B:1, I:0, A:0, S:0)
 - 07-avl-trees: 0 (B:0, I:0, A:0, S:0)
 - 08-red-black-trees: 0 (B:0, I:0, A:0, S:0)
 - 09-b-trees: 0 (B:0, I:0, A:0, S:0)

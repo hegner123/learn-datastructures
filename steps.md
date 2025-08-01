@@ -5,7 +5,7 @@ This document outlines the chronological process for creating new problems in th
 ## Prerequisites
 
 1. **Choose target data structure directory** (e.g., `01-Arrays`, `02-linked-lists`, etc.)
-2. **Determine difficulty level** (Beginner, Intermediate, Advanced, Senior)
+2. **Determine difficulty level** (Intro, Beginner, Intermediate, Advanced, Senior)
 3. **Select date** for problem creation (format: YYYYMMDD)
 
 ## Step-by-Step Process
@@ -39,12 +39,7 @@ mkdir "yyyymmdd-level"
 cd "yyyymmdd-level"
 ```
 
-### 4. Initialize Git Repository
-```bash
-git init
-```
-
-### 5. Create .gitignore File
+### 4. Create .gitignore File
 Create `.gitignore` with appropriate exclusions:
 - **Go**: `*.log`, `*.out`, `*.exe`, `*.test`, `vendor/`, `.DS_Store`
 - **TypeScript**: `node_modules/`, `dist/`, `build/`, `*.log`, `.DS_Store`, `coverage/`
@@ -120,6 +115,11 @@ Write comprehensive problem description including:
 
 ### 9. Test Case Requirements by Level
 
+#### Intro
+- Direct implementation of subject matter
+- Straightforward test cases
+- Minimal additional problem solving
+
 #### Beginner
 - Direct implementation of subject matter
 - Straightforward test cases
@@ -151,12 +151,14 @@ Before finalizing the problem, validate that the difficulty level matches the ac
    - Evaluate algorithmic complexity required
 
 2. **Check Difficulty Alignment**
+   - **Intro**: Uses only the current subject matter, no additional data structures
    - **Beginner**: Uses only the current subject matter, no additional data structures
    - **Intermediate**: Uses current subject + exactly one previous data structure (prefix 1 to current-1)
    - **Advanced**: Uses current subject + up to three previous data structures (prefix 1 to current-1)
    - **Senior**: May use any/all data structures, requires advanced problem solving
 
 3. **Validate Test Cases**
+   - **Intro**: Straightforward cases, no deliberate edge case traps
    - **Beginner**: Straightforward cases, no deliberate edge case traps
    - **Intermediate**: Include cases that test robustness, moderate complexity
    - **Advanced**: Complex edge cases, multiple failure scenarios
@@ -178,7 +180,7 @@ Before finalizing the problem, validate that the difficulty level matches the ac
 Before completion, verify:
 - [ ] Subject-matter documentation exists (if not, created according to explain.md)
 - [ ] Directory structure matches standards.md format
-- [ ] Git repository initialized with appropriate .gitignore
+- [ ] .gitignore file created with appropriate exclusions
 - [ ] Go module uses correct Go version (1.24)
 - [ ] All 10 test cases implemented in both Go and TypeScript
 - [ ] Test complexity matches difficulty level
@@ -200,12 +202,7 @@ Before completion, verify:
 - Increment the count for the target data structure by 1
 - Save the file
 
-### 13. Commit Changes to Git
-- Navigate to the problem directory (yyyymmdd-level)
-- Add all files to git: `git add .`
-- Create initial commit: `git commit -m "Initial problem setup for [data-structure] [difficulty] level"`
-
-### 14. Final Steps
+### 13. Final Steps
 - Review all files for consistency
 - Ensure test cases can be run successfully
 - Verify placeholder solutions compile but don't implement functionality
@@ -219,4 +216,4 @@ Before completion, verify:
 - **Learning through implementation**: Students must implement solutions themselves
 - **Test-driven approach**: Complete test suites guide implementation
 - **Multi-language support**: Both Go and TypeScript implementations required
-- **Git best practices**: Each problem is its own repository with proper .gitignore
+- **Proper file organization**: Each problem has proper .gitignore for clean development
