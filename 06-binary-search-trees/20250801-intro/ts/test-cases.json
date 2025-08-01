@@ -1,0 +1,126 @@
+{
+  "insertTests": [
+    {
+      "name": "Insert into empty tree",
+      "initial": [],
+      "insert": 5,
+      "expected": [5]
+    },
+    {
+      "name": "Insert smaller value as left child",
+      "initial": [10],
+      "insert": 5,
+      "expected": [5, 10]
+    },
+    {
+      "name": "Insert larger value as right child",
+      "initial": [10],
+      "insert": 15,
+      "expected": [10, 15]
+    },
+    {
+      "name": "Insert multiple values in order",
+      "initial": [10, 5],
+      "insert": 15,
+      "expected": [5, 10, 15]
+    },
+    {
+      "name": "Insert value creating left subtree",
+      "initial": [10, 5, 15],
+      "insert": 3,
+      "expected": [3, 5, 10, 15]
+    },
+    {
+      "name": "Insert value creating right subtree",
+      "initial": [10, 5, 15],
+      "insert": 18,
+      "expected": [5, 10, 15, 18]
+    },
+    {
+      "name": "Insert duplicate value",
+      "initial": [10, 5, 15],
+      "insert": 10,
+      "expected": [5, 10, 15]
+    },
+    {
+      "name": "Insert creating balanced tree",
+      "initial": [10, 5, 15, 3],
+      "insert": 7,
+      "expected": [3, 5, 7, 10, 15]
+    },
+    {
+      "name": "Insert negative value",
+      "initial": [10, 5],
+      "insert": -2,
+      "expected": [-2, 5, 10]
+    },
+    {
+      "name": "Insert large value",
+      "initial": [10, 5, 15],
+      "insert": 100,
+      "expected": [5, 10, 15, 100]
+    }
+  ],
+  "searchTests": [
+    {
+      "name": "Search in empty tree",
+      "values": [],
+      "search": 5,
+      "expected": false
+    },
+    {
+      "name": "Search root value",
+      "values": [10],
+      "search": 10,
+      "expected": true
+    },
+    {
+      "name": "Search non-existent value in single node",
+      "values": [10],
+      "search": 5,
+      "expected": false
+    },
+    {
+      "name": "Search left child",
+      "values": [10, 5, 15],
+      "search": 5,
+      "expected": true
+    },
+    {
+      "name": "Search right child",
+      "values": [10, 5, 15],
+      "search": 15,
+      "expected": true
+    },
+    {
+      "name": "Search deep left value",
+      "values": [10, 5, 15, 3, 7],
+      "search": 3,
+      "expected": true
+    },
+    {
+      "name": "Search deep right value",
+      "values": [10, 5, 15, 3, 7, 12, 18],
+      "search": 18,
+      "expected": true
+    },
+    {
+      "name": "Search non-existent small value",
+      "values": [10, 5, 15],
+      "search": 1,
+      "expected": false
+    },
+    {
+      "name": "Search non-existent large value",
+      "values": [10, 5, 15],
+      "search": 20,
+      "expected": false
+    },
+    {
+      "name": "Search negative value",
+      "values": [10, 5, 15, -2],
+      "search": -2,
+      "expected": true
+    }
+  ]
+}
