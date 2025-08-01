@@ -45,6 +45,10 @@ Create `.gitignore` with appropriate exclusions:
 - **TypeScript**: `node_modules/`, `dist/`, `build/`, `*.log`, `.DS_Store`, `coverage/`
 - **General**: `.vscode/`, `.idea/`, `*.swp`, `*.swo`
 
+### 5. Review Difficulty requirements
+- Read levels.md and read requirements under specific level
+- Memorize requirements and review actions against requirements
+
 ### 6. Create Go Implementation Structure
 ```bash
 mkdir go
