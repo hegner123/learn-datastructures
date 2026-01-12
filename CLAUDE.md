@@ -31,15 +31,15 @@ The repository follows a strict organizational pattern:
 
 - **Numbered directories**: Each data structure has a prefix number (01-33) indicating its order in the learning sequence
 - **Documentation files**: Each directory contains a markdown file explaining the data structure (e.g., `arrays.md`, `linked_lists.md`)
-- **Problem structure**: Problems are organized by date and difficulty level according to `standards.md`
+- **Problem structure**: Problems are organized by date and difficulty level according to `STANDARDS.md`
 - **Multi-language support**: Go and TypeScript implementations are supported
 - **Reference directory**: `00-Reference` contains reference implementations and examples - it is not part of the learning sequence
 
 ## Key Files
 
 - `README.md`: Main overview with list of all data structures and practice counts
-- `standards.md`: Defines the format and structure for problem organization
-- `levels.md`: Defines detailed difficulty level requirements (Beginner, Intermediate, Advanced, Senior)
+- `STANDARDS.md`: Defines the format and structure for problem organization
+- `LEVELS.md`: Defines detailed difficulty level requirements (Beginner, Intermediate, Advanced, Senior)
 
 ## Problem Creation Process
 
@@ -55,7 +55,7 @@ Check if the subject-matter directory contains a self-titled markdown file expla
 
 **If the documentation file exists**: Move to the next step.
 
-**If the documentation file does NOT exist**: Create a self-titled markdown file explaining the subject matter in accordance with the template and guidelines provided in `explain.md`. The file should include all required sections: definition, key properties, time complexity, Go implementation, TypeScript implementation, common use cases, advantages, and disadvantages.
+**If the documentation file does NOT exist**: Create a self-titled markdown file explaining the subject matter in accordance with the template and guidelines provided in `EXPLAIN.md`. The file should include all required sections: definition, key properties, time complexity, Go implementation, TypeScript implementation, common use cases, advantages, and disadvantages.
 
 ### Step 2: Review Existing Problems for Uniqueness
 Before generating a new problem, review all existing problems in the target subject-matter directory to ensure the new question will not be a duplicate.
@@ -76,7 +76,7 @@ Before generating a new problem, review all existing problems in the target subj
 
 **If Duplication Detected**: Modify the problem concept to focus on a different aspect of the subject matter or combine with different supporting data structures as allowed by the difficulty level.
 
-## Problem Organization (from standards.md)
+## Problem Organization (from STANDARDS.md)
 
 When problems are created, they follow this structure:
 ```
@@ -174,8 +174,8 @@ Before finalizing any problem, validate that the difficulty level matches the ac
 ## Final Validation Checklist
 
 Before completion, verify:
-- [ ] Subject-matter documentation exists (if not, created according to explain.md)
-- [ ] Directory structure matches standards.md format
+- [ ] Subject-matter documentation exists (if not, created according to EXPLAIN.md)
+- [ ] Directory structure matches STANDARDS.md format
 - [ ] Git repository initialized with appropriate .gitignore
 - [ ] Go module uses correct Go version (currently 1.24)
 - [ ] All 10 test cases implemented in both Go and TypeScript
@@ -208,4 +208,4 @@ Before completion, verify:
 
 **Dependency Clarity**: When creating problems for advanced structures (suffix-trees, segment-trees, fenwick-trees, sparse-tables, etc.), explicitly identify and document prerequisite data structures needed for the solution. This helps ensure difficulty levels accurately reflect the complexity and knowledge requirements.
 
-**Todo List Validation**: When Claude generates a todo list during problem creation, it must compare the generated todo items against the step-by-step process outlined in `steps.md` and the requirements specified in this `CLAUDE.md` file. This ensures all necessary steps are included and no critical tasks are missed during the problem creation workflow.
+**Todo List Validation**: When Claude generates a todo list during problem creation, it must compare the generated todo items against the step-by-step process outlined in `STEPS.md` and the requirements specified in this `CLAUDE.md` file. This ensures all necessary steps are included and no critical tasks are missed during the problem creation workflow.

@@ -62,7 +62,7 @@ claude
 Claude will:
 1. Check if subject documentation exists (creates if needed)
 2. Review existing problems to ensure uniqueness
-3. Generate a problem following standards.md format
+3. Generate a problem following STANDARDS.md format
 4. Create Go and TypeScript implementations with tests
 5. Update practice counts
 
@@ -71,10 +71,10 @@ Claude will:
 ```
 learn-datastructures/
 ├── CLAUDE.md              # AI workflow instructions (the core prompt)
-├── standards.md           # Problem format specifications
-├── steps.md              # Step-by-step problem creation process
-├── levels.md             # Difficulty level definitions
-├── explain.md            # Template for subject matter documentation
+├── STANDARDS.md           # Problem format specifications
+├── STEPS.md              # Step-by-step problem creation process
+├── LEVELS.md             # Difficulty level definitions
+├── EXPLAIN.md            # Template for subject matter documentation
 ├── 00-Reference/         # Example problem (reference implementation)
 ├── 01-Arrays/            # Arrays data structure
 │   ├── arrays.md        # Subject matter explanation
@@ -143,7 +143,7 @@ Problems are categorized into five levels with strict data structure constraints
 - **Advanced**: Subject matter + up to three additional data structures from previous directories
 - **Senior**: Can use any/all data structures, requires advanced problem solving
 
-See `levels.md` for detailed requirements.
+See `LEVELS.md` for detailed requirements.
 
 ## How It Works
 
@@ -151,12 +151,12 @@ This system uses prompt engineering to guide Claude Code through a rigorous prob
 
 1. **Documentation First**: Ensures subject matter explanation exists
 2. **Uniqueness Check**: Reviews existing problems to avoid duplication
-3. **Structured Generation**: Creates problems following strict format (standards.md)
+3. **Structured Generation**: Creates problems following strict format (STANDARDS.md)
 4. **Multi-Language**: Generates both Go and TypeScript implementations
 5. **Complete Testing**: Includes 10 test cases per problem
 6. **Validation**: Verifies difficulty level matches actual complexity
 
-The workflow is defined in `CLAUDE.md` and `steps.md` - these files contain the prompts that guide Claude Code.
+The workflow is defined in `CLAUDE.md` and `STEPS.md` - these files contain the prompts that guide Claude Code.
 
 ## Practice Counts
 
@@ -202,10 +202,10 @@ Track your progress as you generate and complete problems:
 ## Key Workflow Files
 
 - **CLAUDE.md**: The main prompt that instructs Claude Code on problem generation workflow
-- **standards.md**: Defines the exact directory structure and file format for problems
-- **steps.md**: Step-by-step process for creating a problem (used by Claude)
-- **levels.md**: Detailed difficulty level requirements and constraints
-- **explain.md**: Template for creating subject matter documentation
+- **STANDARDS.md**: Defines the exact directory structure and file format for problems
+- **STEPS.md**: Step-by-step process for creating a problem (used by Claude)
+- **LEVELS.md**: Detailed difficulty level requirements and constraints
+- **EXPLAIN.md**: Template for creating subject matter documentation
 - **practice-counts.json**: Machine-readable practice count tracking
 
 ## Running Tests
@@ -225,7 +225,7 @@ npm test
 
 ## Contributing
 
-This is a personal learning workflow system. Feel free to fork and adapt for your own use. The workflow files (CLAUDE.md, standards.md, etc.) can be customized to match your learning preferences.
+This is a personal learning workflow system. Feel free to fork and adapt for your own use. The workflow files (CLAUDE.md, STANDARDS.md, etc.) can be customized to match your learning preferences.
 
 ## License
 
@@ -237,4 +237,4 @@ Check `00-Reference/20250718-beginner/` to see an example of a generated problem
 
 ---
 
-**Note**: This system is designed specifically for use with Claude Code. The markdown files in the root (CLAUDE.md, standards.md, steps.md) are the workflow prompts that guide the AI through problem generation.
+**Note**: This system is designed specifically for use with Claude Code. The markdown files in the root (CLAUDE.md, STANDARDS.md, STEPS.md) are the workflow prompts that guide the AI through problem generation.

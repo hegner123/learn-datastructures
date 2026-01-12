@@ -34,7 +34,7 @@ Problems are categorized into five difficulty levels:
 * **Advanced** - Subject matter + up to three additional data structures from previous directories  
 * **Senior** - Can use any/all data structures, requires advanced problem solving
 
-*See levels.md for detailed requirements per level.*
+*See LEVELS.md for detailed requirements per level.*
 
 ## Git Repository Initialization
 
@@ -50,7 +50,7 @@ Each problem directory must be initialized as a Git repository at the same level
 
 * question.md - includes an overview of the problem, example inputs and outputs, and constraints
   * Must provide **10 different test cases** for the solution to be tested against
-  * Test case complexity should match the difficulty level (see levels.md)
+  * Test case complexity should match the difficulty level (see LEVELS.md)
 * go/ - a directory containing files for a go solution
     * go.mod - module definition and dependency management (use installed Go version)
     * go.sum - dependency checksums (auto-generated)

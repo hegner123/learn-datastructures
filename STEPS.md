@@ -15,7 +15,7 @@ Check if the subject-matter directory contains a self-titled markdown file expla
 
 **If the documentation file exists**: Move to the next step.
 
-**If the documentation file does NOT exist**: Create a self-titled markdown file explaining the subject matter in accordance with the template and guidelines provided in `explain.md`. The file should include all required sections: definition, key properties, time complexity, Go implementation, TypeScript implementation, common use cases, advantages, and disadvantages.
+**If the documentation file does NOT exist**: Create a self-titled markdown file explaining the subject matter in accordance with the template and guidelines provided in `EXPLAIN.md`. The file should include all required sections: definition, key properties, time complexity, Go implementation, TypeScript implementation, common use cases, advantages, and disadvantages.
 
 ### 2. Review Existing Problems
 Before creating a new problem, review all existing problems in the target subject-matter directory to ensure the new question will not be a duplicate.
@@ -46,7 +46,7 @@ Create `.gitignore` with appropriate exclusions:
 - **General**: `.vscode/`, `.idea/`, `*.swp`, `*.swo`
 
 ### 5. Review Difficulty requirements
-- Read levels.md and read requirements under specific level
+- Read LEVELS.md and read requirements under specific level
 - Memorize requirements and review actions against requirements
 
 ### 6. Create Go Implementation Structure
@@ -182,8 +182,8 @@ Before finalizing the problem, validate that the difficulty level matches the ac
 ### 11. Final Validation Checklist
 
 Before completion, verify:
-- [ ] Subject-matter documentation exists (if not, created according to explain.md)
-- [ ] Directory structure matches standards.md format
+- [ ] Subject-matter documentation exists (if not, created according to EXPLAIN.md)
+- [ ] Directory structure matches STANDARDS.md format
 - [ ] .gitignore file created with appropriate exclusions
 - [ ] Go module uses correct Go version (1.24)
 - [ ] All 10 test cases implemented in both Go and TypeScript

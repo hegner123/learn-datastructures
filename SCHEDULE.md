@@ -284,9 +284,9 @@ This schedule provides a structured approach to mastering all 33 data structures
 
 ### Documentation Priority
 1. Structure-specific .md files in each directory
-2. `levels.md` for difficulty understanding
-3. `standards.md` for problem format
-4. `steps.md` for implementation guidance
+2. `LEVELS.md` for difficulty understanding
+3. `STANDARDS.md` for problem format
+4. `STEPS.md` for implementation guidance
 
 ### Practice Strategy
 1. **Understand before implementing** - Theory must precede practice
