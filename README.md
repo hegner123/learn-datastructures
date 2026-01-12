@@ -27,18 +27,32 @@ The goal is to achieve **mastery** through deliberate practice - developing the 
 
 ### Generate Your First Problem
 
-1. Clone this repository
-2. Open it in Claude Code
-3. Ask Claude: "Create a beginner-level problem for Arrays"
-4. Claude will use the workflow defined in `CLAUDE.md` to generate a complete problem with tests
+**Option 1: Using the convenience script**
 
-### Example Workflow
+```bash
+# Clone this repository
+git clone https://github.com/hegner123/learn-datastructures.git
+cd learn-datastructures
+
+# Make the script executable
+chmod +x create-problem.sh
+
+# Generate a problem
+./create-problem.sh beginner Arrays
+./create-problem.sh intermediate linked-lists
+./create-problem.sh advanced binary-trees
+
+# Syntax: ./create-problem.sh <difficulty> <data-structure>
+# Difficulty: intro, beginner, intermediate, advanced, senior
+```
+
+**Option 2: Using Claude Code directly**
 
 ```bash
 # Navigate to the repository
 cd learn-datastructures
 
-# Start Claude Code (example command)
+# Start Claude Code
 claude
 
 # In Claude Code, request a problem

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Script to create a new data structure problem using Claude CLI
 # Usage: ./create-problem.sh <difficulty> <data-structure>
